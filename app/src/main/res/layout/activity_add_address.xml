@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.AddAddressActivity">
+
+    <!-- Toolbar remains at the top -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_address_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightred"
+        android:title="Add Address"
+        app:titleTextAppearance="@style/ToolbarTitleText" />
+
+    <!-- A LinearLayout to center the rest of the content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Address"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp" />
+
+        <EditText
+            android:id="@+id/address_line1"
+            android:layout_width="325dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/add_line1"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="House / Flat / Building No."
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/address_line2"
+            android:layout_width="325dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/add_line2"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Road Name / Area / Colony"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="325dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/pincode"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Pincode"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/ad_add_address"
+            android:layout_width="325dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/poppins"
+            android:text="Save Address"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
