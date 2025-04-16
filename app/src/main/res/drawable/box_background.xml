@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" /> <!-- Shadow color -->
+            <corners android:radius="12dp" />
+            <padding
+                android:left="3dp"
+                android:top="3dp"
+                android:right="3dp"
+                android:bottom="3dp" />
+        </shape>
+    </item>
+
+    <!-- Main Box Layer -->
+    <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Box background color -->
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+</layer-list>

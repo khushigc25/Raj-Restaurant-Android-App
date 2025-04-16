@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848878537172",
+    "project_id": "raj-restaurant-37b20",
+    "storage_bucket": "raj-restaurant-37b20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848878537172:android:16e2489d0a63a193892e41",
+        "android_client_info": {
+          "package_name": "com.example.rajrestaurant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsBEngepRdK2Z_uzuqNiM7XlhzWPGfsTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

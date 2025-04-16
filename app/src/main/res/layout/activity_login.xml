@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins"
+        android:onClick="signIn"
+        android:text="Sign in"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/grand_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins"
+        android:text="Don't have an account ?"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/createAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:allowUndo="false"
+        android:fontFamily="@font/poppins"
+        android:onClick="signUp"
+        android:text="Create Account"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

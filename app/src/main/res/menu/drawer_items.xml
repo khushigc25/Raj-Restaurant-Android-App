@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/navMenu"
+            android:title="Menu"
+            android:icon="@drawable/nav_menu" />
+        <item
+            android:id="@+id/navCart"
+            android:title="Cart"
+            android:icon="@drawable/nav_cart"/>
+    </group>
+
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/navAddress"
+            android:title="Address Book"
+            android:icon="@drawable/nav_address"/>
+
+        <item
+            android:id="@+id/navAddAddress"
+            android:title="Add a new Address"
+            android:icon="@drawable/add_address"/>
+
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/navOrderHistory"
+            android:title="Order History"
+            android:icon="@drawable/nav_his" />
+    </group>
+
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/navFeedback"
+            android:title="Give Feedback"
+            android:icon="@drawable/feedback"/>
+
+        <item
+            android:id="@+id/navTerms"
+            android:title="Terms and Conditions"
+            android:icon="@drawable/nav_terms" />
+    </group>
+
+    <group android:id="@+id/group5">
+        <item
+            android:id="@+id/navLogout"
+            android:title="Log out"
+            android:icon="@drawable/nav_logout" />
+    </group>
+
+</menu>

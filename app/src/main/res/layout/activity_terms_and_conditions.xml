@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.TermsAndConditionsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/t_and_c_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightred"
+        android:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/ToolbarTitleText"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        app:title="Terms and Conditions" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="1) Order Once placed cannot be cancelled."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="2) All items are prepared in hygienic condition."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="3) Refined and Vegetables oil used for cooking."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="4) You are responsible for maintaining the confidentiality of your login credentials."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="5) Prices of menu items are subject to change without prior notice."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="6) Delivery times are estimates and may vary due to traffic, weather conditions, or high demand."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="7) Cash on Delivery is accepted."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:fontFamily="@font/poppins"
+        android:text="8) You can pay online once the order reaches to your doorsteps."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>

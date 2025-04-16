@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".activities.AddFoodItemActivity">
+
+    <!-- Title for Adding Food Item -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Add Food Item"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Food Name -->
+    <EditText
+        android:id="@+id/food_name"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Food Item Name"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Description -->
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Image URL -->
+    <EditText
+        android:id="@+id/img_url"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Image URL"
+        android:inputType="textUri"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Price -->
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Type (e.g., food category/type) -->
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Type"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Veg/Non-Veg (vn) -->
+    <EditText
+        android:id="@+id/vn"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Veg/Non-Veg"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/add_food_item_button"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Add Food Item"
+        android:textColor="@color/white"
+        android:onClick="addFoodItem" />
+
+</LinearLayout>

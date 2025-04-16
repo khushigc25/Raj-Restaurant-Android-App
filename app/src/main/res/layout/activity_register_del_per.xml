@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".activities.RegisterDelPerActivity">
+
+    <!-- Title for Registration Form -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Delivery Person"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/del_name"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="15dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/del_email"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Age Field -->
+    <EditText
+        android:id="@+id/del_age"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/del_person"
+        android:drawablePadding="15dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Phone Number Field -->
+    <EditText
+        android:id="@+id/del_phone_number"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/mobno"
+        android:drawablePadding="15dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/del_password"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:onClick="addDeliveryPerson"
+        android:text="Register"
+        android:textColor="@color/white" />
+
+</LinearLayout>
